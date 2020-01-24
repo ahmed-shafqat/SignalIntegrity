@@ -1,52 +1,23 @@
 <Project>
-	<PostProcessing>
-		<Lines>
-			<PostProcessingLine>
-				<Line>enforce causality</Line>
-			</PostProcessingLine>
-		</Lines>
-	</PostProcessing>
 	<Drawing>
 		<DrawingProperties>
-			<Geometry>504x270+238+513</Geometry>
-			<Originy>3</Originy>
-			<Originx>2</Originx>
-			<Height>1</Height>
-			<Width>1</Width>
 			<Grid>16.0</Grid>
+			<Originx>2</Originx>
+			<Originy>3</Originy>
+			<Width>711</Width>
+			<Height>320</Height>
+			<Geometry>504x270+40+69</Geometry>
 		</DrawingProperties>
 		<Schematic>
-			<Wires>
-				<Wire>
-					<Vertices>
-						<Vertex>
-							<Coord>(10, 4)</Coord>
-						</Vertex>
-						<Vertex>
-							<Coord>(16, 4)</Coord>
-						</Vertex>
-					</Vertices>
-				</Wire>
-				<Wire>
-					<Vertices>
-						<Vertex>
-							<Coord>(20, 4)</Coord>
-						</Vertex>
-						<Vertex>
-							<Coord>(22, 4)</Coord>
-						</Vertex>
-					</Vertices>
-				</Wire>
-			</Wires>
 			<Devices>
 				<Device>
 					<ClassName>Port</ClassName>
 					<PartPicture>
-						<Origin>(19, 3)</Origin>
 						<Index>0</Index>
+						<Origin>(19, 3)</Origin>
 						<Orientation>0</Orientation>
-						<MirroredHorizontally>True</MirroredHorizontally>
 						<MirroredVertically>False</MirroredVertically>
+						<MirroredHorizontally>True</MirroredHorizontally>
 					</PartPicture>
 					<PartProperties>
 						<PartProperty>
@@ -78,11 +49,11 @@
 				<Device>
 					<ClassName>Port</ClassName>
 					<PartPicture>
-						<Origin>(3, 3)</Origin>
 						<Index>0</Index>
+						<Origin>(3, 3)</Origin>
 						<Orientation>0</Orientation>
-						<MirroredHorizontally>False</MirroredHorizontally>
 						<MirroredVertically>False</MirroredVertically>
+						<MirroredHorizontally>False</MirroredHorizontally>
 					</PartPicture>
 					<PartProperties>
 						<PartProperty>
@@ -114,11 +85,11 @@
 				<Device>
 					<ClassName>DeviceFile</ClassName>
 					<PartPicture>
-						<Origin>(6, 3)</Origin>
 						<Index>0</Index>
+						<Origin>(6, 3)</Origin>
 						<Orientation>0</Orientation>
-						<MirroredHorizontally>False</MirroredHorizontally>
 						<MirroredVertically>False</MirroredVertically>
+						<MirroredHorizontally>False</MirroredHorizontally>
 					</PartPicture>
 					<PartProperties>
 						<PartProperty>
@@ -144,11 +115,11 @@
 				<Device>
 					<ClassName>DeviceFile</ClassName>
 					<PartPicture>
-						<Origin>(16, 3)</Origin>
 						<Index>1</Index>
+						<Origin>(16, 3)</Origin>
 						<Orientation>0</Orientation>
-						<MirroredHorizontally>False</MirroredHorizontally>
 						<MirroredVertically>False</MirroredVertically>
+						<MirroredHorizontally>False</MirroredHorizontally>
 					</PartPicture>
 					<PartProperties>
 						<PartProperty>
@@ -172,11 +143,40 @@
 					</PartProperties>
 				</Device>
 			</Devices>
+			<Wires>
+				<Wire>
+					<Vertices>
+						<Vertex>
+							<Coord>(10, 4)</Coord>
+						</Vertex>
+						<Vertex>
+							<Coord>(16, 4)</Coord>
+						</Vertex>
+					</Vertices>
+				</Wire>
+				<Wire>
+					<Vertices>
+						<Vertex>
+							<Coord>(20, 4)</Coord>
+						</Vertex>
+						<Vertex>
+							<Coord>(22, 4)</Coord>
+						</Vertex>
+					</Vertices>
+				</Wire>
+			</Wires>
 		</Schematic>
 	</Drawing>
 	<CalculationProperties>
-		<UserSampleRate>40000000000.0</UserSampleRate>
-		<FrequencyPoints>200</FrequencyPoints>
 		<EndFrequency>20000000000.0</EndFrequency>
+		<FrequencyPoints>200</FrequencyPoints>
+		<UserSampleRate>40000000000.0</UserSampleRate>
 	</CalculationProperties>
+	<PostProcessing>
+		<Lines>
+			<PostProcessingLine>
+				<Line>enforce causality</Line>
+			</PostProcessingLine>
+		</Lines>
+	</PostProcessing>
 </Project>

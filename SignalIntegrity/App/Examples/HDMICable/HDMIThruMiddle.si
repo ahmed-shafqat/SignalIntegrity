@@ -1,32 +1,23 @@
 <Project>
-	<PostProcessing>
-		<Lines>
-			<PostProcessingLine>
-				<Line>enforce causality</Line>
-			</PostProcessingLine>
-		</Lines>
-	</PostProcessing>
 	<Drawing>
 		<DrawingProperties>
-			<Geometry>711x363+40+69</Geometry>
-			<Originy>4</Originy>
-			<Originx>1</Originx>
-			<Height>1</Height>
-			<Width>1</Width>
 			<Grid>16.0</Grid>
+			<Originx>1</Originx>
+			<Originy>4</Originy>
+			<Width>504</Width>
+			<Height>227</Height>
+			<Geometry>711x363+40+69</Geometry>
 		</DrawingProperties>
 		<Schematic>
-			<Wires>
-			</Wires>
 			<Devices>
 				<Device>
 					<ClassName>DeviceFile</ClassName>
 					<PartPicture>
-						<Origin>(11, 3)</Origin>
 						<Index>0</Index>
+						<Origin>(11, 3)</Origin>
 						<Orientation>0</Orientation>
-						<MirroredHorizontally>False</MirroredHorizontally>
 						<MirroredVertically>False</MirroredVertically>
+						<MirroredHorizontally>False</MirroredHorizontally>
 					</PartPicture>
 					<PartProperties>
 						<PartProperty>
@@ -52,11 +43,11 @@
 				<Device>
 					<ClassName>Port</ClassName>
 					<PartPicture>
-						<Origin>(8, 3)</Origin>
 						<Index>0</Index>
+						<Origin>(8, 3)</Origin>
 						<Orientation>0</Orientation>
-						<MirroredHorizontally>False</MirroredHorizontally>
 						<MirroredVertically>False</MirroredVertically>
+						<MirroredHorizontally>False</MirroredHorizontally>
 					</PartPicture>
 					<PartProperties>
 						<PartProperty>
@@ -88,11 +79,11 @@
 				<Device>
 					<ClassName>Port</ClassName>
 					<PartPicture>
-						<Origin>(12, 3)</Origin>
 						<Index>0</Index>
+						<Origin>(12, 3)</Origin>
 						<Orientation>0</Orientation>
-						<MirroredHorizontally>True</MirroredHorizontally>
 						<MirroredVertically>False</MirroredVertically>
+						<MirroredHorizontally>True</MirroredHorizontally>
 					</PartPicture>
 					<PartProperties>
 						<PartProperty>
@@ -122,11 +113,20 @@
 					</PartProperties>
 				</Device>
 			</Devices>
+			<Wires>
+			</Wires>
 		</Schematic>
 	</Drawing>
 	<CalculationProperties>
-		<UserSampleRate>40000000000.0</UserSampleRate>
-		<FrequencyPoints>200</FrequencyPoints>
 		<EndFrequency>20000000000.0</EndFrequency>
+		<FrequencyPoints>200</FrequencyPoints>
+		<UserSampleRate>40000000000.0</UserSampleRate>
 	</CalculationProperties>
+	<PostProcessing>
+		<Lines>
+			<PostProcessingLine>
+				<Line>enforce causality</Line>
+			</PostProcessingLine>
+		</Lines>
+	</PostProcessing>
 </Project>

@@ -1,34 +1,23 @@
 <Project>
-	<CalculationProperties>
-		<UserSampleRate>40000000000.0</UserSampleRate>
-		<FrequencyPoints>4000</FrequencyPoints>
-		<EndFrequency>20000000000.0</EndFrequency>
-	</CalculationProperties>
-	<PostProcessing>
-		<Lines>
-		</Lines>
-	</PostProcessing>
 	<Drawing>
 		<DrawingProperties>
-			<Geometry>507x244+609+433</Geometry>
-			<Originy>4</Originy>
-			<Originx>2</Originx>
-			<Height>201</Height>
-			<Width>506</Width>
 			<Grid>22.0</Grid>
+			<Originx>2</Originx>
+			<Originy>4</Originy>
+			<Width>587</Width>
+			<Height>382</Height>
+			<Geometry>507x244+40+69</Geometry>
 		</DrawingProperties>
 		<Schematic>
-			<Wires>
-			</Wires>
 			<Devices>
 				<Device>
 					<ClassName>Port</ClassName>
 					<PartPicture>
-						<Origin>(0, -1)</Origin>
 						<Index>0</Index>
+						<Origin>(0, -1)</Origin>
 						<Orientation>0</Orientation>
-						<MirroredHorizontally>False</MirroredHorizontally>
 						<MirroredVertically>False</MirroredVertically>
+						<MirroredHorizontally>False</MirroredHorizontally>
 					</PartPicture>
 					<PartProperties>
 						<PartProperty>
@@ -60,11 +49,11 @@
 				<Device>
 					<ClassName>Port</ClassName>
 					<PartPicture>
-						<Origin>(12, -1)</Origin>
 						<Index>0</Index>
+						<Origin>(12, -1)</Origin>
 						<Orientation>0</Orientation>
-						<MirroredHorizontally>True</MirroredHorizontally>
 						<MirroredVertically>False</MirroredVertically>
+						<MirroredHorizontally>True</MirroredHorizontally>
 					</PartPicture>
 					<PartProperties>
 						<PartProperty>
@@ -96,11 +85,11 @@
 				<Device>
 					<ClassName>Port</ClassName>
 					<PartPicture>
-						<Origin>(0, 1)</Origin>
 						<Index>0</Index>
+						<Origin>(0, 1)</Origin>
 						<Orientation>0</Orientation>
-						<MirroredHorizontally>False</MirroredHorizontally>
 						<MirroredVertically>False</MirroredVertically>
+						<MirroredHorizontally>False</MirroredHorizontally>
 					</PartPicture>
 					<PartProperties>
 						<PartProperty>
@@ -132,11 +121,11 @@
 				<Device>
 					<ClassName>Port</ClassName>
 					<PartPicture>
-						<Origin>(12, 1)</Origin>
 						<Index>0</Index>
+						<Origin>(12, 1)</Origin>
 						<Orientation>0</Orientation>
-						<MirroredHorizontally>True</MirroredHorizontally>
 						<MirroredVertically>False</MirroredVertically>
+						<MirroredHorizontally>True</MirroredHorizontally>
 					</PartPicture>
 					<PartProperties>
 						<PartProperty>
@@ -168,11 +157,11 @@
 				<Device>
 					<ClassName>DevicePowerMixedModeConverter</ClassName>
 					<PartPicture>
-						<Origin>(3, -1)</Origin>
 						<Index>0</Index>
+						<Origin>(3, -1)</Origin>
 						<Orientation>0</Orientation>
-						<MirroredHorizontally>True</MirroredHorizontally>
 						<MirroredVertically>False</MirroredVertically>
+						<MirroredHorizontally>True</MirroredHorizontally>
 					</PartPicture>
 					<PartProperties>
 						<PartProperty>
@@ -192,11 +181,11 @@
 				<Device>
 					<ClassName>DevicePowerMixedModeConverter</ClassName>
 					<PartPicture>
-						<Origin>(11, -1)</Origin>
 						<Index>0</Index>
+						<Origin>(11, -1)</Origin>
 						<Orientation>0</Orientation>
-						<MirroredHorizontally>False</MirroredHorizontally>
 						<MirroredVertically>False</MirroredVertically>
+						<MirroredHorizontally>False</MirroredHorizontally>
 					</PartPicture>
 					<PartProperties>
 						<PartProperty>
@@ -216,11 +205,11 @@
 				<Device>
 					<ClassName>DeviceFile</ClassName>
 					<PartPicture>
-						<Origin>(7, -1)</Origin>
 						<Index>2</Index>
+						<Origin>(7, -1)</Origin>
 						<Orientation>0</Orientation>
-						<MirroredHorizontally>False</MirroredHorizontally>
 						<MirroredVertically>False</MirroredVertically>
+						<MirroredHorizontally>False</MirroredHorizontally>
 					</PartPicture>
 					<PartProperties>
 						<PartProperty>
@@ -244,6 +233,17 @@
 					</PartProperties>
 				</Device>
 			</Devices>
+			<Wires>
+			</Wires>
 		</Schematic>
 	</Drawing>
+	<CalculationProperties>
+		<EndFrequency>20000000000.0</EndFrequency>
+		<FrequencyPoints>4000</FrequencyPoints>
+		<UserSampleRate>40000000000.0</UserSampleRate>
+	</CalculationProperties>
+	<PostProcessing>
+		<Lines>
+		</Lines>
+	</PostProcessing>
 </Project>

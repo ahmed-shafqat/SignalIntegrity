@@ -1,35 +1,23 @@
 <Project>
 	<Drawing>
 		<DrawingProperties>
-			<Geometry>711x363+52+52</Geometry>
-			<Originy>4</Originy>
-			<Originx>1</Originx>
-			<Height>178</Height>
-			<Width>200</Width>
 			<Grid>16.0</Grid>
+			<Originx>1</Originx>
+			<Originy>4</Originy>
+			<Width>528</Width>
+			<Height>180</Height>
+			<Geometry>711x363+40+69</Geometry>
 		</DrawingProperties>
 		<Schematic>
-			<Wires>
-				<Wire>
-					<Vertices>
-						<Vertex>
-							<Coord>(11, 4)</Coord>
-						</Vertex>
-						<Vertex>
-							<Coord>(13, 4)</Coord>
-						</Vertex>
-					</Vertices>
-				</Wire>
-			</Wires>
 			<Devices>
 				<Device>
 					<ClassName>DeviceFile</ClassName>
 					<PartPicture>
-						<Origin>(13, 3)</Origin>
 						<Index>0</Index>
+						<Origin>(13, 3)</Origin>
 						<Orientation>0</Orientation>
-						<MirroredHorizontally>False</MirroredHorizontally>
 						<MirroredVertically>False</MirroredVertically>
+						<MirroredHorizontally>False</MirroredHorizontally>
 					</PartPicture>
 					<PartProperties>
 						<PartProperty>
@@ -55,11 +43,11 @@
 				<Device>
 					<ClassName>Port</ClassName>
 					<PartPicture>
-						<Origin>(4, 3)</Origin>
 						<Index>0</Index>
+						<Origin>(4, 3)</Origin>
 						<Orientation>0</Orientation>
-						<MirroredHorizontally>False</MirroredHorizontally>
 						<MirroredVertically>False</MirroredVertically>
+						<MirroredHorizontally>False</MirroredHorizontally>
 					</PartPicture>
 					<PartProperties>
 						<PartProperty>
@@ -91,11 +79,11 @@
 				<Device>
 					<ClassName>Port</ClassName>
 					<PartPicture>
-						<Origin>(14, 3)</Origin>
 						<Index>0</Index>
+						<Origin>(14, 3)</Origin>
 						<Orientation>0</Orientation>
-						<MirroredHorizontally>True</MirroredHorizontally>
 						<MirroredVertically>False</MirroredVertically>
+						<MirroredHorizontally>True</MirroredHorizontally>
 					</PartPicture>
 					<PartProperties>
 						<PartProperty>
@@ -127,11 +115,11 @@
 				<Device>
 					<ClassName>DeviceUnknown</ClassName>
 					<PartPicture>
-						<Origin>(7, 3)</Origin>
 						<Index>0</Index>
+						<Origin>(7, 3)</Origin>
 						<Orientation>0</Orientation>
-						<MirroredHorizontally>False</MirroredHorizontally>
 						<MirroredVertically>False</MirroredVertically>
+						<MirroredHorizontally>False</MirroredHorizontally>
 					</PartPicture>
 					<PartProperties>
 						<PartProperty>
@@ -151,11 +139,11 @@
 				<Device>
 					<ClassName>DeviceSystem</ClassName>
 					<PartPicture>
-						<Origin>(10, 9)</Origin>
 						<Index>0</Index>
+						<Origin>(10, 9)</Origin>
 						<Orientation>0</Orientation>
-						<MirroredHorizontally>False</MirroredHorizontally>
 						<MirroredVertically>False</MirroredVertically>
+						<MirroredHorizontally>False</MirroredHorizontally>
 					</PartPicture>
 					<PartProperties>
 						<PartProperty>
@@ -179,12 +167,24 @@
 					</PartProperties>
 				</Device>
 			</Devices>
+			<Wires>
+				<Wire>
+					<Vertices>
+						<Vertex>
+							<Coord>(11, 4)</Coord>
+						</Vertex>
+						<Vertex>
+							<Coord>(13, 4)</Coord>
+						</Vertex>
+					</Vertices>
+				</Wire>
+			</Wires>
 		</Schematic>
 	</Drawing>
 	<CalculationProperties>
-		<UserSampleRate>40000000000.0</UserSampleRate>
-		<FrequencyPoints>200</FrequencyPoints>
 		<EndFrequency>20000000000.0</EndFrequency>
+		<FrequencyPoints>200</FrequencyPoints>
+		<UserSampleRate>40000000000.0</UserSampleRate>
 	</CalculationProperties>
 	<PostProcessing>
 		<Lines>
